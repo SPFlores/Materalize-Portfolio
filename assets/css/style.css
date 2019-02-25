@@ -24,3 +24,11 @@ p {
 #first-about {
   clear: left;
 }
+
+.portpic {
+  height: 200px;
+  width: 200px;
+  vertical-align: middle;
+  display: inline-block;
+  align-content: center;
+}
