@@ -1,0 +1,26 @@
+body {
+  background: url(../images/oriental.png);
+  /* font-family: 'Raleway', sans-serif;
+  font-family: 'Quicksand', sans-serif; */
+  font-family: 'Abel', sans-serif;
+}
+
+p {
+  font-size: 10px;
+}
+
+.container {
+  border: 2px solid #dddddd;
+  margin-top: 25px;
+}
+
+#mypicture {
+  height: 275px;
+  width: 275px;
+  float: left;
+  margin-right: 10px;
+}
+
+#first-about {
+  clear: left;
+}
