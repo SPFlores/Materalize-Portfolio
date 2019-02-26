@@ -12,11 +12,12 @@ p {
 .container {
   border: 2px solid #dddddd;
   margin-top: 25px;
+  padding: 10px;
 }
 
 #mypicture {
-  height: 275px;
-  width: 275px;
+  height: 300px;
+  width: 300px;
   float: left;
   margin-right: 10px;
 }
@@ -25,10 +26,47 @@ p {
   clear: left;
 }
 
-.portpic {
-  height: 200px;
-  width: 200px;
-  vertical-align: middle;
-  display: inline-block;
-  align-content: center;
+#caption {
+  position: absolute;
+  color: white;
+  height: 60px;
+  width: 100%;
+  background-color: #4aaaa5;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#portpic1 {
+  background-image: url("../images/hangman.png");
+  background-repeat: no-repeat;
+  height: 300px;
+  background-size: cover;
+}
+
+#portpic2 {
+  background-image: url("../images/rpg-game.jpg");
+  background-repeat: no-repeat;
+  height: 300px;
+  background-size: cover;
+}
+
+#portpic3 {
+  background-image: url("../images/trivia.jpg");
+  background-repeat: no-repeat;
+  height: 300px;
+  background-size: cover;
+}
+
+#portpic4 {
+  background-image: url("../images/rutgers-info-widget.jpg");
+  background-repeat: no-repeat;
+  height: 300px;
+  background-size: cover;
+}
+
+#portpic5 {
+  background-image: url("../images/rock-paper-scisors.jpg");
+  background-repeat: no-repeat;
+  height: 300px;
+  background-size: cover;
 }
