@@ -8,23 +8,30 @@
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/css?family=Abel|Quicksand|Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="assets/app.js"></script>
   <title>Samantha Flores | Contact</title>
 </head>
 
 <body>
-  <div class="navbar-fixed">
-    <nav>
-      <div class="nav-wrapper blue darken-3">
-        <a href="#" class="brand-logo">Samantha Flores</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="./index.html">About</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li class="active"><a href="./contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-  </div>
+  <nav class="navbar-fixed">
+    <div class="nav-wrapper blue darken-3">
+      <a class="brand-logo left">Samantha Flores</a>
+      <a data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="./index.html">About</a></li>
+        <li><a href="./portfolio.html">Portfolio</a></li>
+        <li><a id="active" href="./contact.html">Contact</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo" style="transform: translateX(-100%);">
+        <li><a href="./index.html">About</a></li>
+        <li><a href="./portfolio.html">Portfolio</a></li>
+        <li><a id="active" href="./contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
   <div class="container white">
     <div class="row">
       <h3 class="blue-text text-darken-3">Contact</h3>
@@ -40,7 +47,7 @@
           <div class="row">
             <div class="input-field col s6 offset-s1 m4 offset-m1 l4 offset-l1 xl4 offset-xl1">
               <input placeholder="Placeholder" id="name" type="text" class="validate">
-              <label for="first_name">Name</label>
+              <label for="name">Name</label>
             </div>
           </div>
           <div class="row">
