@@ -1,12 +1,14 @@
 body {
   background: url(../images/circles-dark.png);
-  /* font-family: 'Raleway', sans-serif;
-  font-family: 'Quicksand', sans-serif; */
   font-family: 'Abel', sans-serif;
 }
 
 p {
   font-size: 10px;
+}
+
+h6 {
+  margin: 0px;
 }
 
 .container {
@@ -73,6 +75,11 @@ p {
   background-size: cover;
 }
 
+.page-footer {
+  padding: 5px;
+}
+
+/* I was hoping this would help with the navbar but I honestly don't think it's doing anything */
 @media only screen and (max-width: 640px) {
   nav a.button-collapse {
     display: block;
