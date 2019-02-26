@@ -16,7 +16,7 @@
 <body>
   <nav class="navbar-fixed">
     <!-- I have tried what feels like seven million ways to make this fully mobile responsive and I just can't seem to make it work out right, but this would be my general setup for it/the way I've gotten the closest. Presuming I could get the actual side-nav menu to come out of the little hamburger menu, it would be just fine. I have a CSS medie query that I thought would work and a little bit of JS that I found online but it's still not working ¯\_(°╭╮°)_/¯ not entirely sure where I'm going wrong -->
-    <div class="nav-wrapper blue darken-3">
+    <!-- <div class="nav-wrapper blue darken-3">
       <a class="brand-logo left">Samantha Flores</a>
       <a data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -30,51 +30,64 @@
         <li><a id="active" href="./contact.html">Contact</a></li>
       </ul>
     </div>
-  </nav>
+  </nav> -->
+    <div class="navbar-fixed">
+      <nav class="blue darken-3 white-text">
+        <div class="nav-wrapper">
+          <a class="brand-logo">Samantha Flores</a>
+          <ul class="right" id="navList">
+            <li><a href="./index.html">About Me</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
 
-  <div class="container white">
-    <div class="row">
-      <h3 class="blue-text text-darken-3">Contact</h3>
-    </div>
-    <div class="row">
-      <div class="col s12 m12 l12 xl12">
-        <hr style="border: 1px solid gray">
-      </div>
-    </div>
-    <div class="col s12 m12 l12 xl 12">
+
+    <div class="container white">
       <div class="row">
-        <form class="col s12">
-          <div class="row">
-            <div class="input-field col s6 offset-s1 m4 offset-m1 l4 offset-l1 xl4 offset-xl1">
-              <input placeholder="Placeholder" id="name" type="text" class="validate">
-              <label for="name">Name</label>
+        <h3 class="blue-text text-darken-3">Contact</h3>
+      </div>
+      <div class="row">
+        <div class="col s12 m12 l12 xl12">
+          <hr style="border: 1px solid gray">
+        </div>
+      </div>
+      <div class="col s12 m12 l12 xl 12">
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6 offset-s1 m4 offset-m1 l4 offset-l1 xl4 offset-xl1">
+                <input placeholder="Placeholder" id="name" type="text" class="validate">
+                <label for="name">Name</label>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s6 offset-s1 m4 offset-m1 l4 offset-l1 xl4 offset-xl1">
-              <input placeholder="Email" id="email" type="email" class="validate">
-              <label for="email">Email</label>
+            <div class="row">
+              <div class="input-field col s6 offset-s1 m4 offset-m1 l4 offset-l1 xl4 offset-xl1">
+                <input placeholder="Email" id="email" type="email" class="validate">
+                <label for="email">Email</label>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s7 offset-s1 m7 offset-m1 l7 offset-l1 xl7 offset-xl1">
-              <textarea placeholder="Write your message here" id="textarea1" class="materialize-textarea"></textarea>
-              <label for="textarea1">Message</label>
+            <div class="row">
+              <div class="input-field col s7 offset-s1 m7 offset-m1 l7 offset-l1 xl7 offset-xl1">
+                <textarea placeholder="Write your message here" id="textarea1" class="materialize-textarea"></textarea>
+                <label for="textarea1">Message</label>
+              </div>
             </div>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
     </div>
-  </div>
-  </div>
+    </div>
 
-  <footer class="page-footer center-align white-text grey darken-1">
+    <footer class="page-footer center-align white-text grey darken-1">
       <div>
         <h6>Copyright ©</h6x>
       </div>
-  </footer>
+    </footer>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 
 </html>
