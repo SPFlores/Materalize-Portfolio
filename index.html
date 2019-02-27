@@ -15,22 +15,33 @@
 
 <body>
   <nav class="navbar-fixed">
-    <!-- I have tried what feels like seven million ways to make this fully mobile responsive and I just can't seem to make it work out right, but this would be my general setup for it/the way I've gotten the closest. Presuming I could get the actual side-nav menu to come out of the little hamburger menu, it would be just fine. I have a CSS medie query that I thought would work and a little bit of JS that I found online but it's still not working ¯\_(°╭╮°)_/¯ not entirely sure where I'm going wrong -->
+    <!-- I have tried what feels like seven million ways to make this fully mobile responsive and I just can't seem to make it work out right, but this would be my general setup for it/the way I've gotten the closest. Presuming I could get the actual side-nav menu to come out of the little hamburger menu, it would be just fine. I have a CSS medie query that I thought would work and a little bit of JS that I found online but it's still not working ¯\_(°╭╮°)_/¯ not entirely sure where I'm going wrong. I've played with the idea of just coding it out as a container (I'll include what that would look like below commented out) but there's got to be a way to do it using Materialize elements too -->
     <div class="nav-wrapper blue darken-3">
       <a class="brand-logo left">Samantha Flores</a>
       <a data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">menu</i></a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a id="active" href="./index.html">About</a></li>
-        <li><a href="./portfolio.html">Portfolio</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-      </ul>
-      <ul class="side-nav" id="mobile-demo" style="transform: translateX(-100%);">
+      <ul id="nav-mobile" class="right show-on-med-and-up">
         <li><a href="./index.html">About</a></li>
         <li><a href="./portfolio.html">Portfolio</a></li>
         <li><a id="active" href="./contact.html">Contact</a></li>
       </ul>
     </div>
   </nav>
+  <ul class="side-nav hide-on-med-and-up" id="mobile-demo" style="transform: translateX(-100%);">
+    <li><a href="./index.html">About</a></li>
+    <li><a href="./portfolio.html">Portfolio</a></li>
+    <li><a id="active" href="./contact.html">Contact</a></li>
+  </ul>
+  
+  <!-- this would be my workaround for the navbar, with some CSS to make sure it stretches the whole with of the page and is fixed -->
+  <!-- <div class="container blue darken-3 white-text">
+    <div class="row">
+      <div class="col s12 m6 pull-m2 l6 pull-m2 xl6 center-align">Samantha Flores</div>
+      <div class="col s4 m2 l2 xl2">About</div>
+      <div class="col s4 m2 l2 xl2">Portfolio</div>
+      <div class="col s4 m2 l2 xl2">Contact</div>
+    </div>
+  </div> -->
+
   <div class="container white">
     <div class="row">
       <div class="col s12 m12 l12 xl12">
