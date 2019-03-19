@@ -51,7 +51,7 @@
     background-image: url("../images/rpg-game.jpg");
     background-repeat: no-repeat;
     height: 250px;
-    background-size: cover;
+    background-size: 100%;
   }
 
   #portpic3 {
