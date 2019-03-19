@@ -51,14 +51,14 @@
     background-image: url("../images/rpg-game.jpg");
     background-repeat: no-repeat;
     height: 250px;
-    background-size: 100%;
+    background-size: cover;
   }
 
   #portpic3 {
     background-image: url("../images/trivia.jpg");
     background-repeat: no-repeat;
     height: 250px;
-    background-size: center;
+    background-size: cover;
   }
 
   #portpic4 {
