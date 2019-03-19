@@ -58,7 +58,7 @@
     background-image: url("../images/trivia.jpg");
     background-repeat: no-repeat;
     height: 250px;
-    background-size: cover;
+    background-size: center;
   }
 
   #portpic4 {
