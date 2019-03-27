@@ -42,6 +42,7 @@
 
   #portpic1 {
     background-image: url("../images/hangman_spn.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     height: 250px;
     background-size: cover;
@@ -49,6 +50,7 @@
 
   #portpic2 {
     background-image: url("../images/rpg-game.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     height: 250px;
     background-size: cover;
@@ -56,6 +58,7 @@
 
   #portpic3 {
     background-image: url("../images/trivia.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     height: 250px;
     background-size: cover;
@@ -63,6 +66,7 @@
 
   #portpic4 {
     background-image: url("../images/gifmaker.png");
+    background-position: center;
     background-repeat: no-repeat;
     height: 250px;
     background-size: cover;
@@ -70,6 +74,7 @@
 
   #portpic5 {
     background-image: url("../images/rock-paper-scisors.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     height: 250px;
     background-size: cover;
