@@ -81,6 +81,14 @@
     background-size: cover;
   }
 
+  #portpic6 {
+    background-image: url("../images/project-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    background-size: cover;
+  }
+
   .page-footer {
     padding: 5px;
   }
