@@ -18,8 +18,8 @@
   }
 
   #mypicture {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 2500px;
     float: left;
     margin-right: 10px;
   }
@@ -86,8 +86,8 @@
 
   @media only screen and (max-width: 980px) and (min-width: 768px) {
     #mypicture {
-      height: 250px;
-      width: 250px;
+      height: 200px;
+      width: 200px;
       float: left;
       margin-right: 10px;
     }
@@ -95,8 +95,8 @@
 
   @media only screen and (max-width: 768px) and (min-width: 640px) {
     #mypicture {
-      height: 200px;
-      width: 200px;
+      height: 150px;
+      width: 150px;
       float: left;
       margin-right: 10px;
     }
@@ -108,8 +108,8 @@
       display: block;
     }
     #mypicture {
-      height: 350px;
-      width: 350px;
+      height: 100px;
+      width: 100px;
       float: left;
       margin-left: 30px;
       margin-bottom: 10px;
