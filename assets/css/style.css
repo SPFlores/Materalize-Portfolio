@@ -37,8 +37,15 @@
     background-color: #1565C0;
     text-align: center;
     margin-top: 165px;
-    padding: 20px;
-    font-size: 24px;
+    padding: 5px;
+  }
+
+  #project_title {
+    position: center;
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+    padding: 3px;
   }
 
   #portpic1 {
