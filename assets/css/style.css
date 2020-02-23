@@ -89,6 +89,22 @@
     background-size: cover;
   }
 
+  #portpic7 {
+    background-image: url("../images/project-2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    background-size: cover;
+  }
+
+  #portpic8 {
+    background-image: url("../images/project-3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    background-size: cover;
+  }
+
   .page-footer {
     padding: 5px;
   }
