@@ -133,10 +133,9 @@
       display: block;
     }
     #mypicture {
-      height: 100px;
-      width: 100px;
+      height: 125px;
+      width: 125px;
       float: left;
-      margin-left: 30px;
       margin-bottom: 10px;
     }
   }
